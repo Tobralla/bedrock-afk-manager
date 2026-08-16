@@ -2,10 +2,10 @@
 
 # 🤖 AFK Discord Bot
 
-**Minecraft Bedrock AFK manager for [donutsmp.net](https://donutsmp.net) — controlled from Discord and a live web dashboard.**
+**Minecraft Bedrock AFK manager for [donutsmp.net](https://donutsmp.net), controlled from Discord and a live web dashboard.**
 
 Keep an arbitrary number of Minecraft accounts online 24/7. Connect, disconnect, and chat with each
-bot directly from your Discord server — no console access needed.
+bot directly from your Discord server. No console access needed.
 
 ![Node.js](https://img.shields.io/badge/Node.js-18+-43853d?logo=node.js&logoColor=white)
 ![Discord.js](https://img.shields.io/badge/Discord.js-14-5865F2?logo=discord&logoColor=white)
@@ -55,8 +55,8 @@ This repo ships with `railway.json` + `nixpacks.toml`, so deploying is one click
 | `DISCORD_CHANNEL_ID` | ❌ | Channel for status notifications |
 | `PORT` | ❌ | Web dashboard port (defaults to `3000`) |
 
-> Run without `DISCORD_TOKEN` to use the web dashboard only — Discord features are
-> automatically disabled.
+> Discord features are automatically disabled when `DISCORD_TOKEN` is not set. The web
+> dashboard still works without it.
 
 ## 💻 Local development
 
